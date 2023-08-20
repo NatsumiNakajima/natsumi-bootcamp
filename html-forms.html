@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="" method="get">
+    <h3> HTML Forms</h3>
+
+    <label for="fname"> First Name </label>
+    <input type="text" id="fname" placeholder="James" required>
+
+    <br>
+
+    <label for="pw"> Password </label>
+    <input type="password" id="pw" placeholder="PASSWORD">
+    
+    <br>
+
+    <label for="fn"> Favorite Number </label>
+    <input type="number" id="fn" min="5" max="10">
+
+    <br>
+
+    <label for="bday"> Birthday </label>
+    <input type="date" id="bday" >
+
+    <br>
+
+    <label for="email"> Email </label>
+    <input type="email" id="email" >
+
+    <br>
+
+    <label for="comments"> Comments </label>
+    <textarea rows="10" cols="25">CONTENT</textarea>
+    
+    <br>
+    <h4> Choose your favorite genre </h4>
+
+    <input type="radio" id="rock" name="music"> <label for="rock"> Rock </label>
+    <input type="radio" id="pop" name="music"> <label for="pop"> Pop </label>
+    <input type="radio" id="hiphop" name="music"> <label for="hiphop"> Hiphop </label>
+
+    <br>
+    <h4> Choose your favorite genre </h4>
+
+    <input type="radio" id="rock" name="music2"> <label for="rock"> Rock </label>
+    <input type="radio" id="pop" name="music2"> <label for="pop"> Pop </label>
+    <input type="radio" id="hiphop" name="music2"> <label for="hiphop"> Hiphop </label>
+
+    <br>
+    <h4> Choose your favorite genre </h4>
+
+    <input type="checkbox" id="rock" name="music2"> <label for="rock"> Rock </label>
+    <input type="checkbox" id="pop" name="music2"> <label for="pop"> Pop </label>
+    <input type="checkbox" id="hiphop" name="music2"> <label for="hiphop"> Hiphop </label>
+
+    <h4> Choose your device </h4>
+    <select>
+        <option> Andloid </option>
+        <option> iOS </option>
+        <option> windows </option>
+    </select>
+
+    <h4> Choose your device </h4>
+    <select multiple>
+        <option> Andloid </option>
+        <option> iOS </option>
+        <option> windows </option>
+    </select>
+
+
+    <br>
+
+    <label for="dp"> Display Picture </label>
+    <input type="file" id="dp">
+
+    <br>
+    <input type="submit" value="submit" name="submit">
+
+    <br>
+    <button type="submit"> Save </button>
+
+</form>
+</body>
+</html>

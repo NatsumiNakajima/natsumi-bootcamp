@@ -1,0 +1,16 @@
+.first{
+    color: red;
+    float: left;
+    /* float: right; */
+}
+
+.second{
+    color: blue;
+    /* clear: left; */
+    /* clear: right; */
+    float: right;
+}
+
+.third{
+    clear: both;
+}
